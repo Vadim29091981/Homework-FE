@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  background-color: #EEEFF1;
+  padding: 100px 0;
+}
+
+.form-wrapper {
+  width: 30%;
+  margin: auto;
+}
+
+.form-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.form-descr {
+  color: #727272;
+  text-align: center;
+  margin: 50px 0 65px;
+  /* 1-сверху, 2-справа/слева, 3-снизу */
+}
+
+.form-control {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+input[name="name"],
+input[name="email"],
+textarea {
+  width: 50%;
+  padding: 20px;
+  border: none;
+  /* убираем границу */
+  outline: none;
+  /* граница по нажатию */
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+background-color: #c4c4cc;
+}
+
+.skill-scale-inner {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;
+}
+
+.skills-img {
+    width: 50%;
+}
+
+.process {
+    background-color: #EEEFF1;
+    padding: 100% 0;
+}
+
+.process-wrapper {
+    width: 60%;
+    margin: auto
+}
+
+.process-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.process-descr {
+    width: 50%;
+    color: #727272;
+    margin: 50px auto 60px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-item {
+    width: 25%;
+    aspect-ratio: 1/1;
+    background-image: url(./images/sticker.png);
+    background-size: contain;
+}
+.sticker {
+    background-image: url(./images/sticker.png);
+}
+.laptop {
+    background-image: url(./images/laptop.png);
+}
+
+
+
+.projects-item-inner {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8));
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-item-inner:hover {
+    opacity: 1;
+}
