@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 15px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+th {
+    padding: 5px;
+}
+
+table img {
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
